@@ -3,9 +3,8 @@ mod test;
 mod http;
 
 // 引用标准库
-use std::net::{TcpListener, TcpStream};
-use std::io::{Read, Write};
-use std::fs;
+use std::net::{TcpListener};
+use std::io::{Write};
 
 
 fn main() {
